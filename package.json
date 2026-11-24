@@ -1,0 +1,12 @@
+{
+  "name": "aula-01-criando-classes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exercícios da videoaula 01 - Criando Classes em JavaScript",
+  "scripts": {
+    "produto": "node src/models/produto.js",
+    "usuario": "node src/models/Usuario.js",
+    "carro": "node src/models/carro.js",
+    "aula": "npm run produto && npm run usuario && npm run carro"
+  }
+}
